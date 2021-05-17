@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script async src="//jsfiddle.net/Hastig/tybscnhm/4/embed/"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <title>Ibrat Innovations</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 5px 3px rgb(224, 221, 221); height: 70px;">
+        <div class="col-md-4">
+            <a class="navbar-brand" href="#"><i class="fa fa-spotify" style="font-size: 200%;"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse col-md-7" id="navbarText" >
+          <ul class="navbar-nav mr-auto col-md-12">
+            <li class="nav-item col-md-1">
+                <center><i class="fa fa-youtube-play" style="margin-left: 5px;"></i></center>
+              <a class="nav-link" href="#" style="color: black; font-weight: 600;">LIVE</a>
+            </li>
+            <li class="nav-item col-md-1" style="margin-left: 5%;">
+                <center><i class="fa fa-file" style="margin-left: 50px;"></i></center>
+                <a class="nav-link" href="#" style="color: black; font-weight: 600;">MEMBERSHIP</a>
+            </li>
+            <li class="nav-item col-md-1" style="margin-left: 10%;">
+                <center><i class="fa fa-male" style="margin-left: 20px;"></i></center>
+                <a class="nav-link" href="#" style="color: black; font-weight: 600;">PLANS</a>
+            </li>
+            <li class="nav-item col-md-1" style="margin-left: 5%;">
+                <center><i class="fa fa-bars" style="margin-left: 10px;"></i></center>
+                <a class="nav-link" href="#" style="color: black; font-weight: 600;">MORE</a>
+            </li>
+          </ul>
+          <span class="navbar-text col-md-1" style="color: black;">
+            <i class="fa fa-user"><b style="margin-left: 15%; font-weight: 500;">Login</b></i>
+          </span>
+        </div>
+      </nav>
+    <p style="margin-bottom: -8%; margin-top: 5%; margin-left: 15%; font-weight: 400; font-size: 200%;">Runner's Workout</p>
+    <center>
+        <div class="flexbox-images">
+            <div class="image-wrapper">
+                <h3 style="position: absolute; margin-left: 20px; margin-top: 20px; font-size: 90%;">STRENGTH</h3>
+                <i class="fa fa-chevron-circle-right icon" style="font-size: 150%;"></i>
+                <img style="height: 300px; border-top-left-radius: 5%; border-bottom-left-radius: 5%;" src="images/img1.jpg">
+            </div>
+            <div class="image-wrapper">
+                <h3 style="position: absolute; margin-left: 20px; margin-top: 20px; font-size: 90%;">MOBILITY</h3>
+                <i class="fa fa-chevron-circle-right icon" style="font-size: 150%;"></i>
+                <img style="height: 300px;" src="images/img2.jpg">
+            </div>
+            <div class="image-wrapper">
+                <h3 style="position: absolute; margin-left: 20px; margin-top: 20px; font-size: 90%;">DRILL</h3>
+                <i class="fa fa-chevron-circle-right icon" style="font-size: 150%;"></i>
+                <img style="height: 300px;" src="images/img3.jpg">
+            </div>
+        </div>
+    </center>
+    <script>
+        $('.image-wrapper').hover(
+        function() {
+            $('.image-wrapper').not(this).toggleClass('squeeze');
+            $(this).toggleClass('stretch');
+        }
+        );
+    </script>
+</body>
+</html>
